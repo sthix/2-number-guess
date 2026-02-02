@@ -28,6 +28,8 @@ def guess_number():
             print(f"You are right. The number was {random_number}!\n"
                   f"You needed {number_of_guesses} guesses.")
             correctly_answer = True
+            break
+
 
 
 if __name__ == "__main__":
